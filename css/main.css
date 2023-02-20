@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(237, 176, 85);
+    padding: 1em;
+    font-size: 2.8em;
+    width: 60%;
+}
+h2{
+    font-size: 2.2em;
+    color: white;
+    background-color:rgb(237, 176, 85);
+    padding: 33px;
+    width: 80%;
+    margin: auto;
+    border: 10px solid white;
+}
+section{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+}
+button{
+    padding: 1em 2em;
+    color: white;
+    background-color: rgb(83, 58, 20);
+    font-size: 1.5em; 
+    width: 20%; 
+    margin:auto;
+}
+
+p{
+    font-size: 2em;
+    color: rgb(237, 176, 85);
+
+}
